@@ -1,0 +1,13 @@
+.hidden {
+    display: none;
+  }
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}  
+
+h3 {
+  color: red;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dog API: Part 3</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1>Dog API Assignment</h1>
+
+        <form id="getDogs">
+          <input
+            class="howManyDogs"
+            type="text"
+            name="dogBreed"
+            required
+            placeholder="enter a dog breed"
+            minlength="1"
+          />
+          <input type="submit" value="Get a dog from breed" />
+        </form>
+
+        <section class="results hidden">
+          <!-- <img class="results-img" alt="placeholder" /> -->
+        </section>
+
+      </div>
+    </main>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
